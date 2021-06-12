@@ -1,4 +1,4 @@
-
+// Author:  Ravier KONAN . @ravjs
 import java.util.Scanner;
 import java.util.Random;
 
@@ -7,13 +7,13 @@ public class MultiplyMatrix {
 	/*
 	 * 
 	 *  INSTRUCTIONS
-	 	1. Votre programme doit demander à l'utilisateur les dimensions des deux matrices 
-	 	carrées, en s'assurant que l'entrée utilisateur est inférieure à 50.
-		2. Si les conditions ci-dessus ne sont pas remplies, demandez à l'utilisateur une nouvelle valeur.
-		3. Générez maintenant des nombres entiers aléatoires (allant de 0 à 50) pour remplir les deux matrices.
-		4. Affichez ces deux matrices à l'écran.
-		5. Multipliez les deux matrices et affichez le résultat à l'écran.
-		6. Invitez l'utilisateur à lui demander s'il souhaite répéter le programme. « Y » pour oui
+	 	1. Votre programme doit demander Ã  l'utilisateur les dimensions des deux matrices 
+	 	carrÃ©es, en s'assurant que l'entrÃ©e utilisateur est infÃ©rieure Ã  50.
+		2. Si les conditions ci-dessus ne sont pas remplies, demandez Ã  l'utilisateur une nouvelle valeur.
+		3. GÃ©nÃ©rez maintenant des nombres entiers alÃ©atoires (allant de 0 Ã  50) pour remplir les deux matrices.
+		4. Affichez ces deux matrices Ã  l'Ã©cran.
+		5. Multipliez les deux matrices et affichez le rÃ©sultat Ã  l'Ã©cran.
+		6. Invitez l'utilisateur Ã  lui demander s'il souhaite rÃ©pÃ©ter le programme. Â« Y Â» pour oui
 
 
 	 */
@@ -43,7 +43,7 @@ public class MultiplyMatrix {
 			dimension = input.nextInt();
 			
 			while(dimension > 50 ) { // Dimension is not good.
-				System.out.println("Entrez une dimension inferieure à 50. ");
+				System.out.println("Entrez une dimension inferieure Ã  50. ");
 				dimension = input.nextInt();
 			}
 			
